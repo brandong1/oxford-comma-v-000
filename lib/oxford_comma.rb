@@ -4,5 +4,6 @@ def oxford_comma(array)
   else
     array[0, array.length - 1].join(", ") + ", and " + array.last 
     #Basically length method used on arrays in ruby returns number of elements in the array for which method is invoked.
+    # So I'm pulling the array length, using -1 to put "and" before the last array element.
   end
 end
